@@ -6,8 +6,14 @@ A slitghly opinionated `cookiecutter` template that creates a barebones Ansible 
 - `ansible-lint`
 - `flake8`
 
-# Usage
+# Requirements 
+- cookiecutter 
 
+# Usage
+Create a new ansible project by running
+```
+cookiecutter https://github.com/netops2devops/cookiecutter-ansible-project.git
+```
 
 
 # To Do
