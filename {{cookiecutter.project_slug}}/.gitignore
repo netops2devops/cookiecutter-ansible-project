@@ -1,0 +1,6 @@
+ansible-navigator.log
+keys.yml
+.vscode/
+venv/
+__pycache__/
+ansible.log
