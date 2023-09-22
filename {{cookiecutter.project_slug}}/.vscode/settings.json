@@ -1,0 +1,24 @@
+{
+    "ansible.ansible.path": "/Users/kagraw/homelab/ansible-homelab/.venv/bin/ansible",
+    "ansible.ansible.useFullyQualifiedCollectionNames": false,
+    "ansible.ansibleNavigator.path": "/Users/kagraw/homelab/ansible-homelab/.venv/bin/ansible-navigator",
+    "ansible.ansibleLint.path": "/Users/kagraw/homelab/ansible-homelab/.venv/bin/ansible-lint",
+
+    "yaml.schemas": {
+        "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml",
+        "file:///Users/kagraw/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i",
+        "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/playbook": "file:///Users/kagraw/homelab/ansible-homelab/playbooks/provision-server.yml",
+        "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/tasks": "file:///Users/kagraw/homelab/ansible-homelab/roles/baseconfig/tasks/main.yml"
+    },
+
+    "files.associations": {
+        "**roles/":"ansible",
+        "**inventory/":"ansible",
+    },
+
+    "ansible.python.interpreterPath": "/Users/kagraw/homelab/ansible-homelab/.venv/bin/python",
+    "ansible.validation.lint.path": "/Users/kagraw/homelab/ansible-homelab/.venv/bin/ansible-lint",
+    "ansible.validation.lint.enabled": true,
+    "ansible.validation.enabled": true,
+    "ansible.validation.lint.arguments": "--fix=all"
+}
