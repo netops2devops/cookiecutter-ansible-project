@@ -1,9 +1,0 @@
-{% if cookiecutter.ansible_version!='latest' %}
-ansible=={{cookiecutter.ansible_version}}
-{% else %}
-ansible
-{% endif %}
-molecule
-molecule-docker
-ansible-lint
-flake8

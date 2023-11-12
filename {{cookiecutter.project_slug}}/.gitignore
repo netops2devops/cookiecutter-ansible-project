@@ -1,6 +1,6 @@
-ansible-navigator.log
+poetry.lock
 keys.yml
-#.vscode/
-venv/
+.vscode/
+.venv/
 __pycache__/
-ansible.log
+*.log

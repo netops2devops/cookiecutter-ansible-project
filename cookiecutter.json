@@ -1,11 +1,12 @@
 {
+    "project_name": "new-ansible-project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "My exciting new Ansible project",
     "full_name": "Kapil Agrawal",
     "email": "noneofyourbusiness@email.com",
-    "github_username": "netops2devops",
-    "project_name": "awesome-ansible-project",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_short_description": "skeleton for an ansible project",
-    "version": "0.1.0",
-    "ansible_version": "latest",
-    "license": ["Apache-2.0", "MIT", "BSD-3-Clause", "GPL-3.0-only", "None"]
+    "vcs_username": "netops2devops",
+    "version": "0.0.1",
+    "ansible_version": "latest", 
+    "setup_pre_commit_hooks": true,
+    "initialize_git": true
   }

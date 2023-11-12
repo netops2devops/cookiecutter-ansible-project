@@ -19,4 +19,4 @@ cookiecutter https://github.com/netops2devops/cookiecutter-ansible-project.git
 
 
 # Author 
-Kapil Agrawal 
+Kapil Agrawal
