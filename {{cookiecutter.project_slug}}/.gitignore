@@ -1,6 +1,8 @@
+__pycache__/
 poetry.lock
-keys.yml
+
 .vscode/
 .venv/
-__pycache__/
+*.env
+
 *.log

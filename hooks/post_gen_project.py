@@ -1,4 +1,3 @@
-import os
 import subprocess
 
 print()
@@ -14,6 +13,6 @@ else:
     pass
 
 if "{{cookiecutter.setup_pre_commit_hooks}}":
-    subprocess.run(["pre-commit", "install"])
+    subprocess.run(["pre-commit", "install", "--install-hooks"])
 else:
     subprocess.run(["rm", ".pre-commit-config.yml"])
