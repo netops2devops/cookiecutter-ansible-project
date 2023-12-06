@@ -3,10 +3,14 @@ repos:
     rev: v4.4.0
     hooks:
       - id: check-yaml
-      - id: end-of-file-fixer
       - id: trailing-whitespace
       - id: check-added-large-files
 -   repo: https://github.com/gitleaks/gitleaks
     rev: v8.17.0
     hooks:
       - id: gitleaks
+-   repo: https://github.com/ansible/ansible-lint
+    rev: v6.9.0
+    hooks:
+      - id: ansible-lint
+

@@ -12,7 +12,7 @@ ansible="{{cookiecutter.ansible_version}}"
 {%- else -%}
 ansible="*"
 {%- endif %}
-ansible-lint = "*"
+ansible-lint={ version = "^6.9.0", markers = "platform_system != 'Windows'" }
 molecule = "*"
 molecule-docker = "*"
 flake8 = "*"
