@@ -1,0 +1,14 @@
+{
+    "ansible.validation.lint.enabled": true,
+    "ansible.validation.enabled": true,
+    "ansible.validation.lint.arguments": "--fix=all",
+    "files.saveConflictResolution": "overwriteFileOnDisk",
+    
+    "files.associations": {
+        "**/roles/**/tasks/*.yml": "ansible",
+        "**/roles/**/vars/*.yml": "ansible",
+        "**/roles/**/handlers/*.yml": "ansible",
+        "**/roles/**/defaults/*.yml": "ansible",
+        "**/playbooks/**/*.yml": "ansible",
+    }
+}
