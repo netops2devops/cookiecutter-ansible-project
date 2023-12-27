@@ -1,6 +1,5 @@
 {
     "project_name": "new-ansible-project",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_short_description": "My exciting new Ansible project",
     "full_name": "Kapil Agrawal",
     "email": "noneofyourbusiness@email.com",
