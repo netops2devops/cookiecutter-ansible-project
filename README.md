@@ -9,6 +9,7 @@ A slightly opinionated `cookiecutter` template that creates a barebones Ansible 
 # Requirements 
 - [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)
 - [Poetry](https://python-poetry.org)
+- [pre-commit](https://pre-commit.com)
 
 # Usage
 Create a new ansible project by running
